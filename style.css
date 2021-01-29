@@ -42,6 +42,10 @@ header .menu li a {
     display: block;
     padding: 10px;
     font-weight: 500;
+    transition: all .3s;
+}
+header .menu li a:hover {
+    color: #f1c40f;
 }
 
 /* MAIN */
@@ -69,4 +73,9 @@ main button {
     padding: 10px 20px;
     color: #fff;
     cursor: pointer;
+    transition: all .3s;
+}
+main button:hover {
+    background-color: #dfe6e9;
+    color: #000;
 }
